@@ -1,3 +1,3 @@
-void main(List<String>arg){
-  print(12 + 1);
+void main(){
+  print('Hello Gbotemi');
 }
