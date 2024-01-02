@@ -7,6 +7,10 @@ void main(){
   final value = additionFunction(a: 30, b: 10); //For this to work you have to define the return
   print(value);
 
+  const fruits = ['pawpaw','grape','orange','tangerine'];
+  fruits.map((fruit) => fruit.toUpperCase()).forEach((fruit) {
+    print('$fruit : ${fruit.length}');
+    });
 }
 
 // void additionFunction(){
@@ -26,4 +30,7 @@ void subtractionFunction(
   int y){
   int subtraction = x - y;
   print(subtraction);
+}
+void fruitFunctions(){
+
 }
